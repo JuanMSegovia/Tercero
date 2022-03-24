@@ -1,0 +1,130 @@
+@import "variables.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;    
+}
+
+.header{
+    padding: 25px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;    
+    background-color: $colorDos;
+
+}
+
+.footer{
+    padding: 25px;
+    text-align: center;
+    font-size: large;
+    font-style: $letraFoot;
+    background-color: $colorUno;    
+
+}
+
+.logo{ 
+    height: 125px ;
+}
+
+  .container-card{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(242, 255, 233);
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    margin-top: 80px ;
+    padding-top: 50px;
+      
+  }
+
+  .card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    max-width: 15%;
+    background-color: rgb(242, 255, 233);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.img{
+    height: 250px;
+    width: 180px;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-items: center;
+}
+
+
+
+div{
+    background-color: rgb(115, 139, 108);
+   
+}
+
+section{
+    height: 1000px;
+    object-fit: contain;
+  }
+
+       
+  
+  #coment{
+    display: flex;
+    flex-direction:column ;
+  }
+    
+
+
+  #talle{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+
+  }
+
+
+
+
+.bi-youtube{
+    font-size: 60px;
+    color: rgb(222, 228, 233);
+}
+
+.bi-youtube:hover{
+    font-size: 60px;
+    color: rgb(10, 72, 83);
+}    
+
+
+.bi-envelope{
+    font-size: 60px;
+    color: rgb(222, 228, 233) ;
+}
+
+.bi-envelope:hover{
+    font-size: 60px;
+    color: rgb(10, 72, 83);
+}
+
+.bi-facebook{
+    font-size: 60px;
+    color: rgb(222, 228, 233);
+}
+.bi-facebook:hover{
+    font-size: 60px;
+    color: rgb(10, 72, 83);
+}
