@@ -15,8 +15,8 @@
 <!-- Este proyecto pertenece a Juan Manuel Segovia -->
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <img class="logo" src="../img/logo.jpg" alt="">       
               <a class="navbar-brand" href="#"></a>
@@ -39,10 +39,12 @@
                       Productos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="productos.html">Bikinis</a></li>
+                      <li><a class="dropdown-item" href="productos.html">Colección AGNES</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="productos.html">Bombacha</a></li>
-                      <li><a class="dropdown-item" href="productos.html">Corpiño</a></li>
+                      <li><a class="dropdown-item" href="productos.html">Colección AMBER</a></li>
+                      <li><a class="dropdown-item" href="productos.html">Colección ASIA</a></li>
+                      <li><a class="dropdown-item" href="productos.html">Colección CAMILE</a></li>
+                      <li><a class="dropdown-item" href="productos.html">Colección CHIARA</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -60,20 +62,33 @@
 
 
 <main>
-        <h2>Dejanos tu mensaje</h2>
-        <form class="container" id="coment" action="" >
-        
-            Nombre <input type="text">
-            Mail <input type="text">     
-            Edad <input type="number">
-            Comentario <textarea name="" id="" cols="30" rows="10"></textarea>
+  <div>
+    <h2>Si tenés alguna duda o consulta escribinos y te ayudamos!</h2>
+    <p class="parrGen">Todos los días nos esforzamos para tratar de traerle a nuetras clientes nuestros mejores productos. Nos interesa saber todo lo que pensas de Mikov. Escribinos y contanos tu experiencia.
+    </p>
 
-            Gracias por dejarnos tus comentarios.
-
-            
-        </form>
+    <form class="container" id="coment" action="" >
     
-    </section>
+        Nombre <input type="text">
+        Mail <input type="text">     
+        Edad <input type="number">
+        Comentario <textarea name="" id="" cols="30" rows="10"></textarea>
+        
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="button">Enviar</button>
+
+        </div>
+        <p>Gracias por tus comentarios.</p>
+
+        
+
+        
+    </form>
+
+  </div>
+
+    
+    
 
 </main>
 

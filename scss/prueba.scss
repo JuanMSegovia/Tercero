@@ -30,12 +30,24 @@
     height: 125px ;
 }
 
-  .container-card{
+.container-card {
     display: flex;
     flex-direction: row;
+    background-color: #f2ffe9;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    margin-top: 80px;
+    padding-top: 50px; }
+
+#bikini-card{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(242, 255, 233);
     justify-content: center;
     align-content: center;
+    align-items: center;
+    justify-items: center;
     gap: 50px;
     margin-top: 80px ;
     padding-top: 50px;

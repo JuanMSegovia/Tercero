@@ -9,14 +9,23 @@
   text-align: center;
   font-size: large;
   font-style: italic;
-  background-color: #c97683; }
+  background-color: rgb(162, 179, 139);
+ }
 
 .footer {
   padding: 25px;
   text-align: center;
   font-size: large;
-  font-style: verdana;
-  background-color: #ac3b3b; }
+  background-color:  rgb(228, 233, 190); 
+  font-weight: 550;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black; 
+}
+
+div{
+  background-color:  rgb(230, 186, 149) ;
+  
+}
 
 .logo {
   height: 125px; }
@@ -31,14 +40,130 @@
   margin-top: 80px;
   padding-top: 50px; }
 
+  /* productos*/
+
+  .bikini-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+
+          
+  }
+
+  .corpi-card{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+
+      
+  }
+
+  .bomba-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+
+
+      
+  }
+
+.FotProd{
+  display: flex;
+  flex-direction: row;
+  max-width: 30%;
+  max-height: 20%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.FotoProd{
+  max-width: 30%;
+  max-height: 30%;
+
+}
+
+.TitProd{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+
+
+
+}
+
+.botprod{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;  
+
+
+
+}
+
+.parrGen{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+
+
+
+}
+
+
+
 .card {
   display: flex;
   justify-content: center;
   flex-direction: column;
   max-width: 15%;
-  background-color: #f2ffe9;
+  background-color: #67e60d;
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+  /*index*/ 
+
+  .parrBienv{
+    font-size: large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+  
+    
+  }
+
+  .h1{
+    text-align: center;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+
+  .h1talle{
+    text-align: center;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black
+
+    
+  }
 
 .img {
   height: 250px;
@@ -51,8 +176,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-items: center; }
 
-div {
-  background-color: #738b6c; }
+
 
 section {
   height: 1000px;
@@ -66,28 +190,43 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+
+}
+
+.TitProd{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-weight: 800;
+  color: rgb(82, 27, 27);
+  
+
+}
 
 .bi-youtube {
   font-size: 60px;
-  color: #dee4e9; }
+  color: red; }
 
 .bi-youtube:hover {
   font-size: 60px;
-  color: #0a4853; }
+  color:blue ; }
 
 .bi-envelope {
   font-size: 60px;
-  color: #dee4e9; }
+  color:  red; }
 
 .bi-envelope:hover {
   font-size: 60px;
-  color: #0a4853; }
+  color: blue; }
 
 .bi-facebook {
   font-size: 60px;
-  color: #dee4e9; }
+  color: red; }
 
 .bi-facebook:hover {
   font-size: 60px;
-  color: #0a4853; }
+  color: blue; }
+
